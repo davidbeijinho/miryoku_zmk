@@ -9,16 +9,20 @@ jobs:
     secrets: inherit
     with:
       board: '["eyelash_corne_left"]'
-      shield: '["nice_view_adapter"]'
+      shield: '["nice_view_gem"]'
       # kconfig: '["CONFIG_ZMK_DISPLAY=y"]'
   build_right:
     uses: ./.github/workflows/main.yml
     secrets: inherit
     with:
-      board: '["eyelash_corne"]'
-      shield: '[" nice_view_adapter"]'
+      board: '["nice_nano_v2"]'
+      shield: '["eyelash_corne_left nice_view_adapter nice_view_gem"]'
       # kconfig: '["CONFIG_ZMK_DISPLAY=y"]'
 
 
 # nice_nano_v2
 #     shield: kyria_left nice_view_adapter nice_view_gem #updated entry
+# - board: nice_nano_v2
+#   shield: kyria_left nice_view_adapter nice_view_gem #updated entry
+# - board: nice_nano_v2
+#   shield: kyria_right nice_view_adapter nice_view_gem #updated entry

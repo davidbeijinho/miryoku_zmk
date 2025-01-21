@@ -1,0 +1,7 @@
+# Copyright 2023 Manna Harbour
+# https://github.com/manna-harbour/miryoku
+
+outboard_repository=m165437/nice-view-gem
+outboard_ref=main
+outboard_from=boards/shields/nice_view_gem
+outboard_to=boards/shields/nice_view_gem
