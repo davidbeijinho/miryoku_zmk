@@ -36,7 +36,7 @@ jobs:
       # "mac",
       # "win"
       layers: '["default"]'
-      # shield: '["nice_view"]'
+      shield: '["nice_view"]'
       # kconfig: '["CONFIG_ZMK_MOUSE=y\nCONFIG_ZMK_DISPLAY=n"]'
       kconfig: '["CONFIG_ZMK_MOUSE=y"]'
   build_right:
