@@ -8,7 +8,7 @@ jobs:
     uses: ./.github/workflows/main.yml
     secrets: inherit
     with:
-      board: '["nice_nano_v2"]'
+      board: '["eyelash_corne_left","eyelash_corne_right"]'
       alphas: '["qwerty"]'
       extra: '["qwerty"]'
       tap: '["qwerty"]'
@@ -18,40 +18,40 @@ jobs:
       # "mac",
       # "win"
       layers: '["default"]'
-      shield: '["eyelash_corne_left nice_view"]'
+      # shield: '["eyelash_corne_left nice_view"]'
       # shield: '["nice_view"]'
       # kconfig: '["CONFIG_ZMK_MOUSE=y\nCONFIG_ZMK_DISPLAY=n"]'
       kconfig: '["CONFIG_ZMK_MOUSE=y"]'
-  build_left:
-    uses: ./.github/workflows/main.yml
-    secrets: inherit
-    with:
-      board: '["eyelash_corne_left"]'
-      alphas: '["qwerty"]'
-      extra: '["qwerty"]'
-      tap: '["qwerty"]'
-      nav: '["vi"]'
-      clipboard: '["default"]'
-      # "fun",
-      # "mac",
-      # "win"
-      layers: '["default"]'
-      shield: '["nice_view"]'
-      # kconfig: '["CONFIG_ZMK_MOUSE=y\nCONFIG_ZMK_DISPLAY=n"]'
-      kconfig: '["CONFIG_ZMK_MOUSE=y"]'
-  build_right:
-    uses: ./.github/workflows/main.yml
-    secrets: inherit
-    with:
-      board: '["eyelash_corne_right"]'
-      alphas: '["qwerty"]'
-      extra: '["qwerty"]'
-      tap: '["qwerty"]'
-      nav: '["vi"]'
-      clipboard: '["default"]'
-      kconfig: '["CONFIG_ZMK_MOUSE=y"]'
-      # shield: '["eyelash_corne_left nice_view"]'
-      # kconfig: '["ONFIG_ZMK_MOUSE=y\nCONFIG_ZMK_DISPLAY=n"]'
+  # build_left:
+  #   uses: ./.github/workflows/main.yml
+  #   secrets: inherit
+  #   with:
+  #     board: '["eyelash_corne_left"]'
+  #     alphas: '["qwerty"]'
+  #     extra: '["qwerty"]'
+  #     tap: '["qwerty"]'
+  #     nav: '["vi"]'
+  #     clipboard: '["default"]'
+  #     # "fun",
+  #     # "mac",
+  #     # "win"
+  #     layers: '["default"]'
+  #     # shield: '["nice_view"]'
+  #     # kconfig: '["CONFIG_ZMK_MOUSE=y\nCONFIG_ZMK_DISPLAY=n"]'
+  #     kconfig: '["CONFIG_ZMK_MOUSE=y"]'
+  # build_right:
+  #   uses: ./.github/workflows/main.yml
+  #   secrets: inherit
+  #   with:
+  #     board: '["eyelash_corne_right"]'
+  #     alphas: '["qwerty"]'
+  #     extra: '["qwerty"]'
+  #     tap: '["qwerty"]'
+  #     nav: '["vi"]'
+  #     clipboard: '["default"]'
+  #     kconfig: '["CONFIG_ZMK_MOUSE=y"]'
+  #     # shield: '["eyelash_corne_left nice_view"]'
+  #     # kconfig: '["ONFIG_ZMK_MOUSE=y\nCONFIG_ZMK_DISPLAY=n"]'
 
 
 # nice_nano_v2
