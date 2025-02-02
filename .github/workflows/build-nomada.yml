@@ -19,7 +19,7 @@ jobs:
       # "win"
       layers: '["default"]'
       # shield: '["nice_view"]'
-      kconfig: '["ONFIG_ZMK_MOUSE=y\nCONFIG_ZMK_DISPLAY=n"]'
+      # kconfig: '["ONFIG_ZMK_MOUSE=y\nCONFIG_ZMK_DISPLAY=n"]'
   build_right:
     uses: ./.github/workflows/main.yml
     secrets: inherit
@@ -31,7 +31,7 @@ jobs:
       nav: '["vi"]'
       clipboard: '["default"]'
       # shield: '["eyelash_corne_left nice_view"]'
-      kconfig: '["ONFIG_ZMK_MOUSE=y\nCONFIG_ZMK_DISPLAY=n"]'
+      # kconfig: '["ONFIG_ZMK_MOUSE=y\nCONFIG_ZMK_DISPLAY=n"]'
 
 
 # nice_nano_v2
