@@ -4,7 +4,7 @@
 name: 'Build Example nomada'
 on: workflow_dispatch
 jobs:
- build_both:
+  build_both:
     uses: ./.github/workflows/main.yml
     secrets: inherit
     with:
