@@ -9,15 +9,29 @@ jobs:
     secrets: inherit
     with:
       board: '["eyelash_corne_left"]'
-      shield: '["nice_view"]'
-      # kconfig: '["CONFIG_ZMK_DISPLAY=y"]'
+      alphas: '["qwerty"]'
+      extra: '["qwerty"]'
+      tap: '["qwerty"]'
+      nav: '["vi"]'
+      clipboard: '["default"]'
+      # "fun",
+      # "mac",
+      # "win"
+      layers: '["default"]'
+      # shield: '["nice_view"]'
+      kconfig: '["CONFIG_ZMK_DISPLAY=y"]'
   build_right:
     uses: ./.github/workflows/main.yml
     secrets: inherit
     with:
-      board: '["nice_nano_v2"]'
-      shield: '["eyelash_corne_left nice_view"]'
-      # kconfig: '["CONFIG_ZMK_DISPLAY=y"]'
+      board: '["eyelash_corne_right"]'
+      alphas: '["qwerty"]'
+      extra: '["qwerty"]'
+      tap: '["qwerty"]'
+      nav: '["vi"]'
+      clipboard: '["default"]'
+      # shield: '["eyelash_corne_left nice_view"]'
+      kconfig: '["CONFIG_ZMK_DISPLAY=y"]'
 
 
 # nice_nano_v2
