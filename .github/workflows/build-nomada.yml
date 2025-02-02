@@ -20,7 +20,7 @@ jobs:
       layers: '["default"]'
       # shield: '["nice_view"]'
       # kconfig: '["CONFIG_ZMK_MOUSE=y\nCONFIG_ZMK_DISPLAY=n"]'
-      kconfig: '["CONFIG_ZMK_RGB_UNDERGLOW=y\nCONFIG_ZMK_MOUSE=y"]'
+      kconfig: '["CONFIG_ZMK_MOUSE=y"]'
   build_right:
     uses: ./.github/workflows/main.yml
     secrets: inherit
@@ -31,7 +31,7 @@ jobs:
       tap: '["qwerty"]'
       nav: '["vi"]'
       clipboard: '["default"]'
-      kconfig: '["CONFIG_ZMK_RGB_UNDERGLOW=y\nCONFIG_ZMK_MOUSE=y"]'
+      kconfig: '["CONFIG_ZMK_MOUSE=y"]'
       # shield: '["eyelash_corne_left nice_view"]'
       # kconfig: '["ONFIG_ZMK_MOUSE=y\nCONFIG_ZMK_DISPLAY=n"]'
 
