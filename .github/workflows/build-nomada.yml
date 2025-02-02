@@ -4,6 +4,23 @@
 name: 'Build Example nomada'
 on: workflow_dispatch
 jobs:
+ build_both:
+    uses: ./.github/workflows/main.yml
+    secrets: inherit
+    with:
+      board: '["eyelash_corne"]'
+      alphas: '["qwerty"]'
+      extra: '["qwerty"]'
+      tap: '["qwerty"]'
+      nav: '["vi"]'
+      clipboard: '["default"]'
+      # "fun",
+      # "mac",
+      # "win"
+      layers: '["default"]'
+      # shield: '["nice_view"]'
+      # kconfig: '["CONFIG_ZMK_MOUSE=y\nCONFIG_ZMK_DISPLAY=n"]'
+      kconfig: '["CONFIG_ZMK_MOUSE=y"]'
   build_left:
     uses: ./.github/workflows/main.yml
     secrets: inherit
