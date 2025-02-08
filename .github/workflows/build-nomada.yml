@@ -21,7 +21,7 @@ jobs:
       # shield: '["eyelash_corne_left nice_view"]'
       # shield: '["nice_view"]'
       # kconfig: '["CONFIG_ZMK_MOUSE=y\nCONFIG_ZMK_DISPLAY=n"]'
-      kconfig: '["CONFIG_ZMK_MOUSE=y"]'
+      # kconfig: '["CONFIG_ZMK_MOUSE=y"]'
   # build_left:
   #   uses: ./.github/workflows/main.yml
   #   secrets: inherit
